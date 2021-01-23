@@ -66,8 +66,8 @@ function hotelCost(days){
         var firstTenDays = 10*100;
         var secondTenDays = 10*80;
         var daysRemaining = days-20;
-        var thirdleft = daysRemaining*50;
-        totalCost = firstTenDays + secondTenDays + thirdleft;
+        var anotherDayremain = daysRemaining*50;
+        totalCost = firstTenDays + secondTenDays +  anotherDayremain;
     }
     return totalCost;
     }
